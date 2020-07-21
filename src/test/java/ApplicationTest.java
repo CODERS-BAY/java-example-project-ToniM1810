@@ -47,6 +47,6 @@ public class ApplicationTest {
     public void testRuntimeError() {
         System.out.println("This will produce an intended runtime error");
         int[] arr = {1,2,3};
-        System.out.println(arr[3]);
+        System.out.println(arr[0]);
     }
 }
